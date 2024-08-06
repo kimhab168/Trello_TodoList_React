@@ -1,0 +1,24 @@
+.list-article {
+  border: 2px solid rgba(0, 0, 0, 0.443);
+  position: relative;
+}
+.list-article:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+.list-article-red:before {
+  background-color: red;
+}
+.list-article-yellow:before {
+  background-color: yellow;
+}
+.list-article-green:before {
+  background-color: greenyellow;
+}
